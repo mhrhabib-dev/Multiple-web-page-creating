@@ -9,6 +9,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #1a1244;
+    border-bottom: 1px solid #401e63;
 }
 .logo{
     color: white;
@@ -34,4 +35,36 @@ nav ul li a{
 nav ul li a:hover{
     background-color: black;
     color: red;
+}
+
+/* hero area star from here  */
+
+header{
+    width: 100%;
+    padding: 200px 0;
+    background-image: url(images/website\ banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.search-box-parent{
+    display: flex;
+    justify-content: center;
+}
+.search-box-parent input{
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.search-box-parent i{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: red;
+    margin-left: -3px;
+    padding: 6px;
+    border-radius: 5px;
 }
