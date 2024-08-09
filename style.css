@@ -68,3 +68,26 @@ header{
     padding: 6px;
     border-radius: 5px;
 }
+/* main area start from here  */
+main{
+    background-color: #2d346a;
+    width: 100%;
+}
+
+/* latest videos area  */
+.latest-video-area{
+    width: 80%;
+    margin: auto;
+    color: #3fd04b;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.latest-videos-page span{
+    color: #1f1a1a;
+    background-color: #a9a4a4;
+    padding: 3px;
+    border-radius: 5px;
+}
