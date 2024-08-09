@@ -91,3 +91,30 @@ main{
     padding: 3px;
     border-radius: 5px;
 }
+/* 2nd section post area  */
+.home-image-parent{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 30px;
+}
+.home-image-box{
+    border: 3px solid gray;
+}
+.home-image-box:hover img{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.home-image-box img{
+    max-width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.home-image-text{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+}
