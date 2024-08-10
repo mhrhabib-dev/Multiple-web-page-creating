@@ -118,3 +118,34 @@ main{
     color: white;
     padding: 5px;
 }
+/* next page area code  */
+.next-page-area-parent{
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.next-page-area-parent h3{
+    background-color: #3fd04b;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.next-page-area-parent h3:hover{
+    background-color: #2b8b33;
+}
+.next-page-area-parent a{
+    color: white;
+    text-decoration: none;
+}
+.npm-text a{
+    background-color: #a9a6a6;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.npm-text a:first-child{
+    background-color: #3fd04b;
+}
