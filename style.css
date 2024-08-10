@@ -10,6 +10,8 @@ nav{
     align-items: center;
     background-color: #1a1244;
     border-bottom: 1px solid #401e63;
+    position: sticky;
+    top: 0;
 }
 .logo{
     color: white;
