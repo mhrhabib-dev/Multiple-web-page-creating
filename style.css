@@ -121,8 +121,8 @@ main{
 /* next page area code  */
 .next-page-area-parent{
     width: 80%;
-    margin: 50px auto;
-    padding: 30px 0;
+    margin: auto;
+    padding: 60px 0;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -148,4 +148,47 @@ main{
 }
 .npm-text a:first-child{
     background-color: #3fd04b;
+}
+
+/* footer area code  */
+footer{
+    background-color: #348abf;
+}
+.footer-contener{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contener h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.footer-first-contener{
+    width: 30%;
+}
+.footer-first-contener p:nth-child(3) {
+      margin-top: 20px;
+}
+.footer-second-contener a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.footer-third-contener div a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+.footer-third-contener div a i{
+    font-size: 25px;
+    margin-top: 18px;
+}
+.footer-third-contener p{
+    padding: 5px 0;
+}
+.footer-third-contener p:nth-child(3){
+    margin-bottom: 35px;
 }
