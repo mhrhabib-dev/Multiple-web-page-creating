@@ -39,38 +39,9 @@ nav ul li a:hover{
     color: red;
 }
 
-.about-card{
-    width: 70%;
+.header h1{
+    font-size: 70px;
     margin: 50px auto;
-    border: 2px solid #d2419f;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
-.about-card h1{
-    margin-top: 60px;
-    color: blue;
-    font-size: 50px;
-}
-.about-card p{
-    color: red;
-    padding: 5px 0;
-}
-.about-card a{
-    display: inline-block;
-    color: white;
-    background-color: blue;
-    margin: 10px 0;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.about-card-text{
-    width: 40%;
-}
-.about-card-img{
-    width: 50%;
-}
-.about-card-img img{
-    width: 100%;
+    width: 70%;
+    text-align: center;
 }
